@@ -22,8 +22,6 @@ namespace RoleBased1
         ///  Creating Roles as Admin User and manager and Employee by diksha
         ///  In this method we will create default User roles and Admin user for login
         /// </summary>
-
-
         private void createRolesandUsers()
             {
                 ApplicationDbContext context = new ApplicationDbContext();

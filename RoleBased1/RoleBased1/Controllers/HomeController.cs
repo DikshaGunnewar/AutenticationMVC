@@ -6,6 +6,9 @@ using System.Web.Mvc;
 
 namespace RoleBased1.Controllers
 {
+    /// <summary>
+    /// Until and Unless User is Authenticated will not render to Home Page
+    /// </summary>
     [Authorize]
     public class HomeController : Controller
     {
