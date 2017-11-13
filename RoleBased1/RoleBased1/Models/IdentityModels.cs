@@ -24,7 +24,8 @@ namespace RoleBased1.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
-
+        //Added by diksha
+        public DbSet<Userdata> Userdatas { get; set; }
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
